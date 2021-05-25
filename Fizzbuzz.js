@@ -1,16 +1,13 @@
+function reset() {
 
-// const button = document.getElementById('button');
+    location.reload()
 
-// button.addEventListener('click', function() {
-//     window.onload
-// }
-// ) ;
+}
 
-//location.reload()
 
 function result() {
 
-    
+
     const input = document.getElementById('input').value;
     const number = parseInt(input);
     const print = document.getElementById('output');
