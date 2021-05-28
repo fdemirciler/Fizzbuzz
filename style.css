@@ -4,6 +4,13 @@ body {
     background: #DDC3D8
 }
 
+p {
+    color: #615e5e;
+    /* font-size: 30px; */
+    font-weight: bold;
+    padding: 6px 24px;
+
+}
 
 .container {
     vertical-align: middle;
@@ -60,21 +67,34 @@ input[type=text] {
 
 }
 
-h3 {
+h4 {
 
     color: #615e5e;
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: bold;
     padding: 6px 24px;
 }
 
 table {
-    color: #615e5e;
-    display: inline-flex;
-    flex-direction: column;
-    line-height: 2em;
+    /* color: #615e5e; */
+    /* display: inline-flex;
+    flex-direction: column; */
+    padding: 10px;
+    border-collapse: collapse;
     text-align: left;
-    border: 1px rgb(221, 17, 129);
-    border-style: solid;
-    border-inline-color: red;
+    /* border: 1px rgb(221, 17, 129);
+    border-style: solid; */
+
+}
+
+table td {
+    padding: 10px;
+
+}
+
+table tbody tr {
+
+    font-weight: bold;
+    color: rgb(93, 93, 219);
+
 }
